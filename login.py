@@ -17,7 +17,7 @@ client.connect()
 if client.is_user_authorized() is not True:
     logging.info('You have not login yet, Trying to log you in... 没有活跃的登录Session，尝试登录...')
     logging.info(
-        'if you have 2FA password, please enter right now. This Password will not be stored | 如果你有两步认证密码，请现在输入。这个密码不会被保存')
+        'if you have 2FA password, please enter right now. This Password will not be stored.If you do not open 2FA, please directly enter enter | 如果你有两步认证密码，请现在输入。这个密码不会被保存.如果你没开启两步验证，请直接输入回车')
     password = getpass.getpass()
     if password != '':
         client.start(password=password)
