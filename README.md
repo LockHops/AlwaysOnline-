@@ -28,7 +28,7 @@ _**Updated：**_**由于 Telegram 官方从 2021.11.10 开始在最新客户端�
 - 执行命令 `git clone https://github.com/LockHops/UpdatedAlwaysOnline` 克隆本项目或者下载压缩包解压
 - 将 `api_id` 和 `api_hash` 填入 `data.py` 适当的位置
     - Fill in your id and hash @ `data.py`
-- `python3 main.py`
+- `python3 UpdatedAlwaysOnline/main.py`
 - 按照指引完成登录
     - Follow the instruction and you are good to go !
 
