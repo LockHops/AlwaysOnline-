@@ -10,7 +10,7 @@ from data import delay
 if client.is_user_authorized():
     logging.info("You are now AlwaysOffline™, Yah!")
     while True:
-        client(UpdateStatusRequest(offline = True))
+        client(UpdateStatusRequest(offline=True))
         time.sleep(delay)
         logging.debug("Sleep for 1 min")
 else:
