@@ -18,13 +18,14 @@ Don't let others peak on your daily routine with recent online! So keep yourself
 
 需要包：`Telethon`  
 使用这个指令直接安装到全局 | Install package globally with ：`pip3 install telethon`  
+
 _**Updated：**_**由于 Telegram 官方在 2021.11.10 开始在最新客户端上引入了第三方广告，并限制了旧版客户端的登录（已登录用户不受影响），因此原项目的 Telethon 版本和部分代码已过时，本 fork 做出了一点小小的修改，现在脚本已经可以在新版 Telethon 上正常运行。**
 
 # 如何使用？ How to use
 
 - 首先，你需要一个 `Client Token`(这个可以在 https://my.telegram.org 申请)
     - 教程：https://github.com/NeverBehave/AlwaysOnline-/blob/master/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/%E5%A6%82%E4%BD%95%E7%94%B3%E8%AF%B7Client%20Token.md
-- `git clone https://github.com/NeverBehave/AlwaysOnline-` 或者下载压缩包解压
+- 使用 `git clone https://github.com/Lockhops/UpdatedAlwaysOnline` 命令克隆本项目或下载压缩包解压
 - 将 `api_id` 和 `api_hash` 填入 `data.py` 适当的位置
     - Fill in your id and hash @ `data.py`
 - `python3 main.py`
