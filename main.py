@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-from login import client
+from login import *
 from telethon.tl.functions.account import UpdateStatusRequest
 import time
 from data import delay
