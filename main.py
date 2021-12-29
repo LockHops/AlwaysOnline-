@@ -2,6 +2,7 @@
 
 import logging
 from login import *
+from telethon.sync import TelegramClient
 from telethon.tl.functions.account import UpdateStatusRequest
 import time
 from data import delay
