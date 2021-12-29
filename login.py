@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from telethon import TelegramClient
+from telethon.sync import TelegramClient
 from data import *
 import logging
 import getpass
