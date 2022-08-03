@@ -12,6 +12,6 @@ if client.is_user_authorized():
     while True:
         client(UpdateStatusRequest(offline=False))
         time.sleep(delay)
-        logging.debug("Sleep for 10 min")
+        logging.debug("Sleep for 1 min")
 else:
     logging.fatal("Login Fails, please retry... 失败，请重试！")
